@@ -1,0 +1,35 @@
+@import url("//cdn.web-fonts.ge/fonts/bpg-banner-supersquare/css/bpg-banner-supersquare.min.css");
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "BPG Banner SuperSquare", sans-serif;
+}
+:root{
+    --bg-color: #ffffff;
+    --primary-color: #a445ed;
+    --light-primary-color: #a445ed38;
+    --secondary-color: rgb(172, 172, 172);
+    --theme-text-color: rgb(172, 172, 172);
+    --text-color: rgb(0, 0, 0);
+    --search-bar-bg: rgb(231, 231, 231);
+}
+.dark{
+    --bg-color: #101010;
+    --primary-color: #a445ed;
+    --light-primary-color: #a445ed4c;
+    --secondary-color: #757575;
+    --theme-text-color: rgb(198, 198, 198);
+    --text-color: white;
+    --search-bar-bg: rgb(31, 31, 31);
+
+}
+
+body{
+    background-color: var(--bg-color);
+}
+.app{
+    min-height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+}   
